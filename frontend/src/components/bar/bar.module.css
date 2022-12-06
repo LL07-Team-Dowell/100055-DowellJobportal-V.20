@@ -1,0 +1,15 @@
+.bar {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+input {
+  background: url("../assets/search.svg") no-repeat left;
+  background-size: 17px;
+  background-position: 7px;
+  font-weight: 500;
+  background-position-x: unset;
+}
+::placeholder {
+  color: #a3a1a1;
+}
