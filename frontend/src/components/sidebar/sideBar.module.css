@@ -1,7 +1,6 @@
 .sideBar {
   display: grid;
-  width: 7%;
-  height: 593px;
+  width: 5%;
+  height: 700px;
   background-color: #005734;
-  /* justify-content: "center"; */
 }

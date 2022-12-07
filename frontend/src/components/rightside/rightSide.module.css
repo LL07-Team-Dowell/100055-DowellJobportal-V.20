@@ -1,0 +1,11 @@
+.rightSide {
+  display: flex;
+}
+.header {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40.8292px;
+  line-height: 50px;
+  letter-spacing: 0.09em;
+}

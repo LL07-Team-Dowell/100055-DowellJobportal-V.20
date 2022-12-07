@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Apply from "../assets/apply.svg";
 
 const Applied = () => {
@@ -11,11 +12,10 @@ const Applied = () => {
           height: "52px",
         }}
       >
-        <img
-          src={Apply}
-          alt=""
-          style={{ cursor: "pointer", marginLeft: "7px" }}
-        />
+        <Link to="/appliedPage">
+          <img src={Apply} alt="" style={{ cursor: "pointer" }} />
+        </Link>
+
         <div style={{ marginTop: "5px" }}>Applied</div>
       </div>
     </div>

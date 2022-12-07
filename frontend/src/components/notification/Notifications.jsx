@@ -1,9 +1,9 @@
+import { Link } from "react-router-dom";
 import Ring from "../assets/ring.svg";
 
 const Notifications = () => {
   return (
     <div>
-      {" "}
       <div
         style={{
           color: "#FFFFFF",
@@ -12,11 +12,9 @@ const Notifications = () => {
           height: "183px",
         }}
       >
-        <img
-          src={Ring}
-          alt=""
-          style={{ cursor: "pointer", marginLeft: "7px" }}
-        />
+        <Link to="/notificationPage">
+          <img src={Ring} alt="" style={{ cursor: "pointer" }} />
+        </Link>
         <div style={{ marginTop: "-69px" }}>
           Notific
           <br />

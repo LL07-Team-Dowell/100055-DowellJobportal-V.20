@@ -1,9 +1,9 @@
+import { Link } from "react-router-dom";
 import Homee from "../assets/home.svg";
 
 const Home = () => {
   return (
     <div>
-      {" "}
       <div
         style={{
           color: "#FFFFFF",
@@ -12,8 +12,10 @@ const Home = () => {
           justifyContent: "center",
         }}
       >
-        <img src={Homee} alt="" style={{ cursor: "pointer" }} />
-        <div style={{ marginTop: "-54px" }}>home</div>
+        <Link to="/homePage">
+          <img src={Homee} alt="" style={{ cursor: "pointer" }} />
+        </Link>
+        <div>home</div>
       </div>
     </div>
   );
