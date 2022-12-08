@@ -2,7 +2,7 @@ import style from "../bar/bar.module.css";
 import Bill from "../assets/photo.svg";
 import Person from "../assets/person.svg";
 import Dowell from "../assets/dowell.svg";
-import Search from "../assets/search.svg";
+// import Search from "../assets/search.svg";
 const Bar = () => {
   return (
     <div className={style.bar}>
@@ -18,7 +18,7 @@ const Bar = () => {
             backgroundColor: "#F5F5F5",
           }}
           input="text"
-          placeholder="       Search for job/project"
+          placeholder="  Search for job/project"
         />
       </form>
       <div style={{ display: "flex", gap: "35px" }}>
