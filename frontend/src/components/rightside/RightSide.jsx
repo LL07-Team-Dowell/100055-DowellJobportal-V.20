@@ -14,6 +14,7 @@ import Paus from "../assets/paus.svg";
 import { useRef } from "react";
 import { useState } from "react";
 import Msg from "../assets/msg.svg";
+import { Link } from "react-router-dom";
 const RightSide = () => {
   const [play, setPlay] = useState(true);
 
@@ -48,11 +49,13 @@ const RightSide = () => {
           }}
         >
           <Stream name="stream 1" logo={Manage} project="Project Management" />
-          <Stream
-            name="stream 2"
-            logo={Cloud}
-            project="Information Technology"
-          />
+          <Link to="informationTechnology">
+            <Stream
+              name="stream 2"
+              logo={Cloud}
+              project="Information Technology"
+            />
+          </Link>
           <div
             style={{
               width: "58%",

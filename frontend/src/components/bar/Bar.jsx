@@ -10,7 +10,7 @@ const Bar = () => {
       <form action="">
         <input
           style={{
-            marginTop: "15px",
+            marginTop: "0px",
             width: "1050px",
             height: "35px",
             borderRadius: "5px",
