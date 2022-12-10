@@ -52,8 +52,8 @@ const IT = () => {
           marginBottom: "30px",
         }}
       >
-        <button className={style.btngreen}>Full time</button>
-        <button className={style.btngray}>Full time</button>
+        <button className={style.btngreen}>Time Based</button>
+        <button className={style.btngray}>Task Based</button>
       </div>
       <div>
         <div
