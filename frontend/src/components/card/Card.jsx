@@ -70,7 +70,7 @@ const Card = () => {
               backgroundColor: "#7C7C7C",
             }}
           ></span>
-          <div style={{ display: "flex", gap: "50px" }}>
+          <div style={{ display: "flex", gap: "50px", paddingBottom: "19px" }}>
             Stipend: 15000 Rs
             <button className={style.btngreen}>Full time</button>
           </div>
